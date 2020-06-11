@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Specificity</title>
+    <style>
+        body {
+            color: red;
+        }
+
+        li {
+            color: purple;
+        }
+
+        .one {
+            color: royalblue;
+        }
+
+        #two {
+            color: sienna;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Specificity Demo</h1>
+
+    <ul>
+        <li class="one">John</li>
+        <li>Bill</li>
+        <li class="one" id="two">Mark</li>
+        <li>Rayne</li>
+    </ul>
+</body>
+
+</html>
