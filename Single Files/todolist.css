@@ -1,0 +1,11 @@
+* {
+    color: yellowgreen;
+}
+
+a {
+    background-color: violet;
+}
+
+li:nth-of-type(odd) {
+    color: tomato;
+}
